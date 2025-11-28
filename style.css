@@ -124,7 +124,7 @@ nav li a{
         font-size: 1ch;
     }
 }
-@media(max-width:390px){
+@media(max-width:480px){
     .heroimg{
         scale: 0.6;
     }
