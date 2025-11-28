@@ -1,15 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .navbar{
+    width: 100%;
+    height: 100px;
     background-color: rgb(253, 248, 241);
     display: flex;
     justify-content: space-between;
-    box-shadow: 10px 10px 5px rgba(136, 136, 136, 0.642);
+    box-shadow: 0px 10px 7px rgba(101, 101, 101, 0.799);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
-.logo{
-    background-image: url('images/logo.png');
+body{
+    padding-top: 100px;
+}
+.logo img{
     width: 200px;
     height: 70px;
     background-repeat: no-repeat;
@@ -29,4 +38,89 @@ nav li a{
     font-size: 3ch;
     font-family: 'Poppins',sans-serif;
     font-weight: 400;
+    
+}
+
+/* section1 */
+
+.sect1{
+    margin-top: 8%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+.heroimg img{
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+}
+.intro{
+    padding-left: 200px;
+    margin-right: 1%;
+}
+#greentxt{
+    background-color: green;
+    padding: 7px;
+    color: white;
+    width: fit-content;
+    font-family: 'Poppins';
+    font-size: 2.2ch;
+    box-shadow: 10px 10px 10px rgba(95, 95, 95, 0.63);
+}
+#mainhead{
+    font-family: 'Poppins';
+    font-size: 7ch;
+    word-spacing: 0.3ch;
+    padding: 5px;
+}
+.intro p{
+    font-family: 'Poppins';
+    font-size: 2.2ch;
+    font-weight: 300;
+}
+.intro a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-size: 2.2ch;
+    font-weight: 400;
+}
+.exploreBtn{
+    margin-top: 5%;
+    padding: 7px;
+    background-color: rgb(255, 172, 17);
+    width: fit-content;
+    box-shadow: 10px 10px 10px rgba(96, 96, 96, 0.621);
+}
+
+@media(max-width : 740px){
+    nav ul li{
+        font-size: 1.6ch;
+        margin-right: 14px;
+    }
+    #greentxt{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .sect1{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .intro{
+        padding-left: 20px;
+    }
+
+}
+@media(max-width:501px){
+    .heroimg{
+        scale: 0.9;
+        align-self: center;
+    }
+    nav ul li{
+        margin-right: 10px;
+    }
+    nav ul li a{
+        font-size: 1ch;
+    }
 }
