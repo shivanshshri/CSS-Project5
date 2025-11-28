@@ -124,3 +124,11 @@ nav li a{
         font-size: 1ch;
     }
 }
+@media(max-width:390px){
+    .heroimg{
+        scale: 0.6;
+    }
+    #greentxt{
+        margin-top: 10px;
+    }
+}
