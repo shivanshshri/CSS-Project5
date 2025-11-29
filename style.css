@@ -105,7 +105,7 @@ nav li a{
 }
 .container1, .container2, .container3{
     position: relative;
-    margin-top: 7%;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -175,7 +175,17 @@ nav li a{
         margin-top: 10px;
     }
     .sect2{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .container1, .container2, .container3{
+        margin-top: 0;
+        padding: 5px;
+        gap: 10px;
+        height: fit-content;
     }
 }
 @media(max-width:576px){
