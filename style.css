@@ -110,11 +110,11 @@ nav li a{
     justify-content: center;
     gap: 30px;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(232, 232, 232);
     width: 350px;
     height: fit-content;
     padding: 20px;
-    box-shadow: 10px 10px 10px rgba(107, 107, 107, 0.737);
+    box-shadow: 7px 7px 7px rgba(107, 107, 107, 0.737);
      transition: transform 0.3s ease;
 }
 .container1:hover{
