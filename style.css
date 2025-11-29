@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .navbar{
     width: 100%;
@@ -99,7 +100,8 @@ nav li a{
     justify-content: center;
     gap: 20px;
     align-items: center;
-    
+    transition-delay: .2s;
+    margin-top: 4%;
 }
 .container1, .container2, .container3{
     position: relative;
@@ -113,6 +115,16 @@ nav li a{
     height: fit-content;
     padding: 20px;
     box-shadow: 10px 10px 10px rgba(107, 107, 107, 0.737);
+     transition: transform 0.3s ease;
+}
+.container1:hover{
+    transform: scale(0.9);
+}
+.container2:hover{
+    transform: scale(0.9);
+}
+.container3:hover{
+    transform: scale(0.9);
 }
 #head{
     font-family: 'Poppins',sans-serif;
