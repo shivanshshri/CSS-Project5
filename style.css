@@ -105,7 +105,7 @@ nav li a{
 }
 .container1, .container2, .container3{
     position: relative;
-    margin-top: 10px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -175,19 +175,16 @@ nav li a{
         margin-top: 10px;
     }
     .sect2{
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 3px;
-        margin-top: 30px;
+        margin-top: 70px;
     }
     .container1, .container2, .container3{
-        margin-top: 0;
         padding: 6px;
-        padding-top: 0px;
-        gap: 40px;
-        scale: 0.9;
+        gap: 5px;
+        margin-top: 5px;
     }
 }
 @media(max-width:576px){
