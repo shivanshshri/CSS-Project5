@@ -169,7 +169,7 @@ nav li a{
 }
 @media(max-width:480px){
     .heroimg{
-        scale: 0.8;
+        scale: 0.78;
     }
     #greentxt{
         margin-top: 10px;
@@ -184,9 +184,10 @@ nav li a{
     }
     .container1, .container2, .container3{
         margin-top: 0;
-        padding: 5px;
-        gap: 10px;
-        height: fit-content;
+        padding: 6px;
+        padding-top: 0px;
+        gap: 40px;
+        scale: 0.9;
     }
 }
 @media(max-width:576px){
