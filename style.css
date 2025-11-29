@@ -48,7 +48,7 @@ nav li a{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 60px;
+    padding: 0 40px;
 }
 .heroimg img{
     width: 500px;
@@ -94,6 +94,37 @@ nav li a{
     box-shadow: 10px 10px 10px rgba(96, 96, 96, 0.621);
 }
 
+.sect2{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    
+}
+.container1, .container2, .container3{
+    position: relative;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(107, 107, 107, 0.737);
+}
+#head{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.7ch;
+    font-weight: 500;
+}
+#textservice{
+    margin-top: 3px;
+    font-family: 'Poppins';
+    font-size: 1.7ch;
+}
+
 @media(max-width : 740px){
     nav ul li{
         font-size: 1.6ch;
@@ -105,7 +136,7 @@ nav li a{
     }
     .sect1{
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
     }
     .intro{
         padding-left: 20px;
@@ -126,9 +157,31 @@ nav li a{
 }
 @media(max-width:480px){
     .heroimg{
-        scale: 0.6;
+        scale: 0.8;
     }
     #greentxt{
         margin-top: 10px;
+    }
+    .sect2{
+        flex-direction: column;
+    }
+}
+@media(max-width:576px){
+    .sect2{
+        flex-direction: column;
+    }
+}
+@media(max-width:768px){
+    #mainhead{
+        font-size: 6ch;
+    }
+    .sect2{
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .container1, .container2, .container3{
+        height: 300px;
+        
     }
 }
