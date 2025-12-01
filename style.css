@@ -153,7 +153,7 @@ nav li a{
 }
 
 .grid-container{
-    position: relative;
+    width: fit-content;
     gap: 5px;
    align-items: center;
    justify-content: center;
@@ -162,8 +162,6 @@ nav li a{
    grid-template-areas: "a a b c"
                         "a a b g"
                         "d e f g";
-    margin-left: 50px;
-    margin-right: 50px;
     box-shadow: 10px 10px 10px rgba(62, 62, 62, 0.573);
 }
 .img1{
@@ -237,18 +235,10 @@ nav li a{
         margin-top: 5px;
     }
     .grid-container{
-        /* display: grid;
-        grid-template-areas: 
-        "a"
-        "b"
-        "c"
-        "d"
-        "e"
-        "f"
-        "g"
-        ; */
-        scale: 0.4;
-        margin-top: 00px;
+        display: grid;
+        scale: 0.33;
+        margin-top: -240px;
+        margin-left: -380px;
     }
 }
 @media(max-width:576px){
