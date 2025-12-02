@@ -327,6 +327,9 @@ li a:hover{
         margin-left: 55px;
         margin-top: 0px;
     }
+    .copyright{
+        font-size: 1.4ch;
+    }
 }
 @media(max-width : 395px){
     .grid-container{
