@@ -141,20 +141,20 @@ nav li a{
 .head1{
     margin-top: 50px;
     font-family: 'Poppins',sans-serif;
-    font-size: 3.5ch;
+    font-size: 2ch;
     text-align: center;
     margin-bottom: 70px;
 }
 .head1txt{
     background-color: rgb(0, 31, 80);
-    padding: 20px;
+    padding: 10px;
     color: white;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(65, 65, 65, 0.618);
 }
 
 .grid-container{
-    margin-left: 7%;
+    margin: 0 auto;
     width: fit-content;
     gap: 5px;
    align-items: center;
@@ -239,8 +239,13 @@ nav li a{
     .grid-container{
         display: grid;
         scale: 0.33;
+        margin-left: -335px;
         margin-top: -310px;
-        margin-left: -380px;
+    }
+}
+@media(max-width : 3900px){
+    .grid-container{
+        margin-left: -375px;
     }
 }
 @media(max-width:576px){
