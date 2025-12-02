@@ -263,9 +263,9 @@ nav li a{
         margin-top: -210px; 
     }
 }
-@media(max-width : 390px){
+@media(max-width : 395px){
     .grid-container{
-        margin-left: -375px;
+        margin-left: -382px;
     }
 }
 @media(max-width:576px){
