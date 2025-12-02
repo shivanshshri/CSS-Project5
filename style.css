@@ -101,7 +101,7 @@ nav li a{
     gap: 20px;
     align-items: center;
     transition-delay: .2s;
-    margin-top: 4%;
+    margin-top: 120px;
 }
 .container1, .container2, .container3{
     position: relative;
@@ -225,6 +225,12 @@ footer{
 footer ul li{
     list-style: none;
 }
+li{
+    transition: transform .2s;
+}
+li:hover{
+    transform: scale(1.2);
+}
 li a{
     color: rgba(235, 233, 233, 0.907);
     text-decoration: none;
@@ -239,9 +245,11 @@ li a:hover{
     margin-top: -20px;
 }
 .support2{
-   margin-top: -30px;
+   margin-top: 20px;
 }
-
+.follow{
+    margin-top: 10px;
+}
 /* copyright  section */
 .copyright{
     background-color: black;
@@ -251,10 +259,29 @@ li a:hover{
     font-family: 'Poppins';
     word-spacing: 0.3ch;
 }
-
+.email{
+    font-family: 'Poppins';
+    padding: 5px;
+    text-align: center;
+    margin-top: 7px;
+    border-radius: 20px;
+}
 #name{
     font-weight: 700;
 }
+
+i {
+  font-size: 25px;
+  margin: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+i:hover {
+  transform: scale(1.5);
+}
+
 @media(max-width : 740px){
     nav ul li{
         font-size: 1.6ch;
