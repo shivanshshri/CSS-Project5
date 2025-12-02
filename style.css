@@ -207,6 +207,54 @@ nav li a{
    grid-area: g;
     transition: transform .2s;
 }
+
+/* footer section */
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: rgba(11, 11, 11, 0.884);
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.7ch;
+}
+footer ul li{
+    list-style: none;
+}
+li a{
+    color: rgba(235, 233, 233, 0.907);
+    text-decoration: none;
+}
+li a:hover{
+    cursor: pointer;
+}
+#foothead{
+    font-size: 2.2ch;
+}
+.support1{
+    margin-top: -20px;
+}
+.support2{
+   margin-top: -30px;
+}
+
+/* copyright  section */
+.copyright{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: 'Poppins';
+    word-spacing: 0.3ch;
+}
+
+#name{
+    font-weight: 700;
+}
 @media(max-width : 740px){
     nav ul li{
         font-size: 1.6ch;
