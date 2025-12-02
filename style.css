@@ -310,6 +310,23 @@ li a:hover{
         margin-left: -345px;
         margin-top: -210px; 
     }
+    footer{
+        margin-top: -290px;
+        font-size: 1.7chch;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .support1{
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .support2{
+        margin-left: 55px;
+        margin-top: 0px;
+    }
 }
 @media(max-width : 395px){
     .grid-container{
