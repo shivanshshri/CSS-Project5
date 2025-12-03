@@ -339,7 +339,7 @@ i:hover {
     }
     footer{
         margin-top: -290px;
-        font-size: 1.7chch;
+        font-size: 1.7ch;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -358,9 +358,12 @@ i:hover {
         font-size: 1.4ch;
     }
 }
-@media(max-width : 395px){
+@media(max-width : 390px){
     .grid-container{
         margin-left: -382px;
+    }
+    footer{
+        min-width: 390px;
     }
 }
 @media(max-width:576px){
@@ -382,7 +385,7 @@ i:hover {
         
     }
     footer{
-        width:fit-content;
+        width: fit-content;
         padding: 20px;
     }
     .copyright{
@@ -396,45 +399,4 @@ i:hover {
                              "c f g";
     }
 }
-@media(max-width:1160px){
-    .grid-container{
-        margin: 0 auto;
-        scale: 0.9;
-    }
-}
-@media (max-width: 786px) {
-  .hero {
-    flex-direction: column;
-  }
 
-  .hero_image {
-    display: flex;
-    justify-content: center;
-  }
-  .hero_image img {
-    width: 80%;
-  }
-  .hero_content {
-    gap: 10px;
-
-    padding: 0 20px;
-  }
-  .hero_content h1 {
-    font-size: 32px;
-  }
-  .features {
-    flex-direction: column;
-  }
-  .feature {
-    flex-direction: column;
-  }
-  .grid {
-    padding: 10px;
-  }
-  .grid-image {
-    border-radius: 0px;
-  }
-  .footer_container {
-    flex-direction: column;
-  }
-}
