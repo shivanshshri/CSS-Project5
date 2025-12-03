@@ -161,7 +161,7 @@ nav li a{
 }
 
 .grid-container{
-    margin: 50px auto;
+    margin: 0px auto;
     width: fit-content;
     gap: 3px;
    display: grid;
@@ -380,5 +380,25 @@ i:hover {
     .container1, .container2, .container3{
         height: 300px;
         
+    }
+    footer{
+        width:fit-content;
+        padding: 20px;
+    }
+    .copyright{
+        width: 100%;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-areas: "a a b",
+                             "a a b",
+                             "d e g",
+                             "c f g";
+    }
+}
+@media(max-width:1160px){
+    .grid-container{
+        margin: 0 auto;
+        scale: 0.9;
     }
 }
