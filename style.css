@@ -148,6 +148,13 @@ nav li a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 30px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
 }
 .head1txt{
     background-color: rgb(0, 31, 80);
@@ -333,9 +340,7 @@ i:hover {
     }
     .grid-container{
         display: grid;
-        scale: 0.33;
-        margin-left: -345px;
-        margin-top: -210px; 
+        scale: 1;
     }
     footer{
         margin-top: -290px;
@@ -364,6 +369,15 @@ i:hover {
     }
     footer{
         min-width: 390px;
+        font-size: 1.4ch;
+    }
+    .support2{
+        margin-left: 90px;
+    }
+    .grid-container{
+       scale: 0.34;
+       margin: 0 auto;
+       margin-top: -500px;
     }
 }
 @media(max-width:576px){
